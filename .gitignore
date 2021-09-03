@@ -23,3 +23,8 @@ backend/danynotes/danynotes/.env
 
 #Media
 backend/danynotes/media/*
+
+
+#Build
+backend/build/
+frontend/build/
