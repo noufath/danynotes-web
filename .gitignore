@@ -1,0 +1,19 @@
+# Byte-compiled
+.vscode/
+__pycache__/
+
+
+# Distribution / packaging
+.Python
+build/
+lib/
+lib64/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheel*.egg
+MANIFEST
+
+
+#Environment
+.env
