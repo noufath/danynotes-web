@@ -17,3 +17,9 @@ MANIFEST
 
 #Environment
 .env
+frontend/.env
+backend/danynotes/danynotes/.env 
+
+
+#Media
+backend/danynotes/media/*
