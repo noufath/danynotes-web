@@ -1,6 +1,7 @@
 # Byte-compiled
 .vscode/
-__pycache__/
+backend/danynotes/blog/__pycache__/*
+
 
 
 # Distribution / packaging
@@ -15,7 +16,7 @@ share/python-wheel*.egg
 MANIFEST
 
 
-#Environment
+# Environment
 .env
 frontend/.env
 backend/danynotes/danynotes/.env 
@@ -25,6 +26,8 @@ backend/danynotes/danynotes/.env
 backend/danynotes/media/*
 
 
-#Build
+
+# production
+/build
 backend/build/
 frontend/build/

@@ -1,8 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 
-const blogdetail = (props) => {
+const Blogdetail = (props) => {
     const [blog, setBlog] = useState({});
 
     useEffect(() => {
@@ -18,11 +18,11 @@ const blogdetail = (props) => {
             };
         };
         fetchData();
-
+        
     }, [props.match.params.id]);
 
     const createBlog = () => {
-        return {__html:blog.content}
+        return {__html: blog.content}
     };
 
     const capitalizeFirstLetter = (word) => {
@@ -44,4 +44,4 @@ const blogdetail = (props) => {
     );
 };
 
-export default blogdetail;
+export default Blogdetail;

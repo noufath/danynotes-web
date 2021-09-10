@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link, NavLink} from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 
 const navbar = () => (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <Link className="navbar-brand" href="#">DanyNotes</Link>
+        <NavLink className="nav-link" exact to='/'>DanyNotes</NavLink>
         <button 
             className="navbar-toggler" 
             type="button" data-toggle="collapse" 
